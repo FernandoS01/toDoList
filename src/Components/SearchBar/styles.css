@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.SearchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+}
+.SearchBar > input {
+  width: 80%;
+  border: 1px solid rgb(77, 77, 77);
+  padding: 3px 10px;
+}
+.SearchBar > input:focus {
+  outline: none;
+}
+.Plus {
+  border: 1px solid rgb(77, 77, 77);
+}
+.Plus:hover {
+  transform: scale(105%);
+}

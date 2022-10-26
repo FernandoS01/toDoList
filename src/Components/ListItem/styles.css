@@ -1,0 +1,17 @@
+.active {
+  text-decoration: line-through;
+  color: rgb(70, 70, 70);
+}
+.ListItem {
+  margin: 0 auto;
+  background-color: #ccc;
+  width: 84%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.ListItem h1 {
+  font-size: 20px;
+}
